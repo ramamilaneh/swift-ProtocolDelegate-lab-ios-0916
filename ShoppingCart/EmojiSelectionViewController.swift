@@ -20,10 +20,7 @@ class EmojiSelectionViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red:0.22, green:0.33, blue:0.58, alpha:1.00)
     }
-    
-    
-    
-    
+      
     @IBAction func saveButton(_ sender: AnyObject) {
         let firstEmoji = self.firstTextFieldLabel.text!
         let secondEmoji = self.secondTextFieldLabel.text!
